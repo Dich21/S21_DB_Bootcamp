@@ -1,0 +1,3 @@
+SELECT content, source_name, title
+FROM news_from_earth
+WHERE content ~* 'woman';

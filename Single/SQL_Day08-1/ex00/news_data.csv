@@ -1,0 +1,37 @@
+source_name,title,content
+"https://nba.com","Kia MVP Ladder: Relentless James Harden keeps on rising","Introspection kicked in for James Harden in the aftermath of dropping a 38-point triple-double Monday to lead the Brooklyn Nets past the Minnesota Timberwolves.
+
+But instead of basking in the glory of Brooklyn's fourth win in five outings, Harden kept talking about improvement.
+
+""You [can] never be complacent. I can't be complacent,"" he said. ""I've never been like that, and I won't start now. I think I can always be better. I think when you're trying to accomplish something, first, you've got to look in the mirror, look at yourself, see what things you can do better and ways you can contribute in a better way for the betterment of the team.""
+
+He's done that for sure, while simultaneously kicking open the door for entry into the top five of this week's Kia Race to the MVP Ladder.
+
+Since Harden debuted with the Nets on Jan. 16, the team owns a record of 26-7 in games he's played."
+"https://nhl.com","NHL On Tap: Matthews looks to extend goal streak for Maple Leafs","Auston Matthews will try to extend his three-game goal streak and help the Toronto Maple Leafs widen their lead in the seven-team Scotia North Division with a victory at the Winnipeg Jets (8 p.m. ET; TSN3, TSN4, NHL.TV) to close a two-game series. Matthews leads the NHL with 24 goals in 33 games and has scored six points (three goals, three assists) in his past four. Jets forward Kyle Connor has scored six points (one goal, five assists) during a four-game point streak that includes an assist in Winnipeg's 3-1 loss to Toronto on Wednesday. If Jets goalie Connor Hellebuyck plays, it will be his 300th NHL game. -- William Douglas, staff writer"
+"https://datalaboratory.one","Flajolet-Martin algorithm","Hi there!
+
+Sometimes, we need to know how many UNIQUE rows exist in a table. In a Relational Database World there is a simple but high-costly action for DB engine level (for example DISTINCT or GROUP BY with subquery). The simple business case for that action is to get an amount of unique users who visited your web-site during a period of time.
+
+SELECT count(t1.user_id) AS ""Unique users""
+FROM (SELECT DISTINCT(user_id) AS user_id
+FROM visits
+WHERE visit_date BETWEEN date1 AND date2) AS t1;
+
+In the modern era of Big Data, Streaming Data, IoT we often face the speed of our request to the database and honestly we do not need to get the exact amount of unique users at the period of time. Just an approximate number is enough for our needs. To help us with our task we can use a really awesome probabilistic structure.
+
+Let me present an example of Flajolet-Martin algorithm (aka ""FM"" or ""LogLog counting of large cardinalities"")"
+"https://www.uefa.com/","Women's Champions League top scorers: Hermoso, Mewis lead","A close race is unfolding to become this season's UEFA Women's Champions League top scorer. In this all-knockout season, the last before the introduction of a group stage for 2021/22, Sam Mewis's consolation strike as Manchester City were knocked out by Barcelona in the quarter-finals lifted her level on five goals with the Spanish side's Jenni Hermoso.
+
+There are seven other players on four goals, including three still involved in the competition: Lyon's Melvine Malard, Chelsea's Fran Kirby and Barcelona forward Asisat Oshoala."
+"https://www.tennis.com","ANDREESCU OUTLASTS SAKKARI TO SET UP MIAMI FINAL SHOWDOWN WITH BARTY","Bianca Andreescu fought off two set points in the first set and battled back from 4-2 down in the third to survive Maria Sakkari, 7-6 (7), 3-6, 7-6 (4), at 1:35 a.m. local time Friday to reach the Miami Open final.
+
+Andreescu, into her first championship clash since triumphing at the 2019 US Open, will play No. 1-ranked Ashleigh Barty for the first time for the WTA 1000 title on Saturday.
+
+""Yeah, I've wanted to play her for a long time now, so I'm super excited for that,"" the world No. 9 said. ""I know it'll be a really tough match, but I'm really looking forward to it.""
+
+Her semifinal with Sakkari, which began late Thursday night, was full of momentum swings. It started right away in the first set, where Andreescu let a 4-1 lead slip away and faced two set points in the tie-break, down 6-5 and 7-6. She saved the first one with an unreturnable serve out wide and the second with a barrage of big backhands, then rifled a crosscourt backhand winner to sneak out the first set after exactly an hour.
+
+The Canadian then opened up a 3-1 lead in the second set---but that's where things turned again.
+
+Sakkari would win five straight games, and nine of the next 11, to not only take the second set, but build a 4-2 lead in the decider. Andreescu dug in, winning the next three games to go up 5-4, but Sakkari struck right back, holding for 5-all---then breaking for 6-5 and a chance to serve out the match."

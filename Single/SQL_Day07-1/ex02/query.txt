@@ -1,0 +1,3 @@
+SELECT *
+FROM data.ldap_users
+WHERE user_group = 200;

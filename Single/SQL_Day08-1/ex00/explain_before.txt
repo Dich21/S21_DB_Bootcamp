@@ -1,0 +1,12 @@
+                                                   QUERY PLAN                                                    
+-----------------------------------------------------------------------------------------------------------------
+ Seq Scan on news_from_earth  (cost=0.00..277.75 rows=381 width=961) (actual time=0.018..7.804 rows=380 loops=1)
+   Filter: (content ~* 'women'::text)
+   Rows Removed by Filter: 1520
+   Buffers: shared hit=254
+ Planning:
+   Buffers: shared hit=76
+ Planning Time: 0.225 ms
+ Execution Time: 7.839 ms
+(8 rows)
+

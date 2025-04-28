@@ -1,0 +1,3 @@
+SELECT *
+FROM news_from_earth
+WHERE content_vector @@ to_tsquery('late & night');
